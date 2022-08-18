@@ -49,7 +49,7 @@ const App = () => {
         <button onClick={() => setCategory('palaro')}>Palaro</button>
       </div>
       <div>
-        <h2>Number of pages:</h2>
+        <h2>Num of pages to fetch:</h2>
         <input type='text' value={numOfPages} onChange={(e) => setNumOfPages(e.target.value)} />
       </div>
       <div>
