@@ -15,7 +15,6 @@ const App = () => {
     const url = `https://powerful-wave-68939.herokuapp.com/api/articles?category=${category}&pages=${numOfPages}`;
     const response = await axios.get(url);
     await setArticleData(response.data);
-    console.log(response.data);
     setIsLoading(false);
   }
 
